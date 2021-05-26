@@ -1,0 +1,8 @@
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\bin\Debug\AirTable.Core.dll
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\bin\Debug\AirTable.Core.pdb
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\obj\Debug\AirTable.Core.csprojAssemblyReference.cache
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\obj\Debug\AirTable.Core.csproj.CoreCompileInputs.cache
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\obj\Debug\AirTable.Core.csproj.CopyComplete
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\obj\Debug\AirTable.Core.dll
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Core\obj\Debug\AirTable.Core.pdb

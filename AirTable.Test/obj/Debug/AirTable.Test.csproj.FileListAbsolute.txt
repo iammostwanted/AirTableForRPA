@@ -1,0 +1,13 @@
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\obj\Debug\AirTable.Test.csprojAssemblyReference.cache
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\obj\Debug\AirTable.Test.csproj.CoreCompileInputs.cache
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\bin\Debug\AirTable.Test.exe.config
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\bin\Debug\AirTable.Test.exe
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\bin\Debug\AirTable.Test.pdb
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\bin\Debug\AirTable.Core.dll
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\bin\Debug\AirTable.Core.pdb
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\obj\Debug\AirTable.Test.csproj.CopyComplete
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\obj\Debug\AirTable.Test.exe
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\obj\Debug\AirTable.Test.pdb
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Serik_Seidigalimov\source\repos\AirTable\AirTable.Test\obj\Debug\AirTable.Test.exe.config
