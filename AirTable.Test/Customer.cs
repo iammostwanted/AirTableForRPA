@@ -11,10 +11,13 @@ namespace AirTable.Test
     {
         [JsonProperty(PropertyName = "First Name")]
         public string firstName { get; set; }
+        [JsonProperty(PropertyName = "Last Name")]
         public string lastName { get; set; }
         public string phoneNumber { get; set; }
         public string email { get; set; }
         public string country { get; set; }
+        [JsonProperty(PropertyName = "id")]
+        public string rowId { get; set; }
 
 
         public Customer() { }

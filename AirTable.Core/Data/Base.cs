@@ -1,4 +1,5 @@
-﻿using AirTable.Core.Data.Parameter;
+﻿using AirTable.Core.Data;
+using AirTable.Core.Data.Parameter;
 using AirTable.Core.Helpers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -80,6 +81,53 @@ namespace AirTable.Core
             {
                 return new RecordList() { Records = records};
             }
+        }
+
+        /// <summary>
+        /// Gets items based by ListParameters
+        /// </summary>
+        /// <param name="parameter"></param>
+        /// <returns>CustomerBaseList with Selected Data</returns>
+        public async Task<List<CustomerBase>> CustomerBaseListAsync(ListParameter parameter)
+        {
+            var result = await RestHelper.MakeRequest("GET", EndPointUrl + "/" + Version + "/" + BaseId + "/" + BaseName + parameters.toURLFormat(),
+                new RequestParameter("Authorization", "Bearer " + TokenKey));
+            var resultDeserialized = JsonConvert.DeserializeObject<JObject>(result);
+            var allRecords = resultDeserialized["records"];
+            var customers = new List<CustomerBase>();
+
+            foreach (var item in allRecords)
+            {
+                var field = item["fields"];
+                var rowId = item["id"];
+                var firstName = field["First Name"];
+                var lastname = field["Last Name"];
+                var country = field["Country"];
+                var phone = field["Phone"];
+                var email = field["Email"];
+                customers.Add(new CustomerBase()
+                {
+                    rowId = item["id"].ToString(),
+                    firstName = field["First Name"].ToString(),
+                    lastName = field["Last Name"].ToString(),
+                    country = field["Country"].ToString(),
+                    phoneNumber = field["Phone"].ToString()
+                });
+            }
+            if (resultDeserialized["offset"] != null)
+            {
+                return customers; ;
+            }
+            else
+            {
+                return customers;
+            }
+
+        }
+        public string GetRes (ListParameter parameters)
+        {
+            return RestHelper.MakeRequest("GET", EndPointUrl + "/" + Version + "/" + BaseId + "/" + BaseName + parameters.toURLFormat(),
+                new RequestParameter("Authorization", "Bearer " + TokenKey));
         }
 
         /// <summary>
